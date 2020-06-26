@@ -1,0 +1,22 @@
+{
+  "test snippet": {
+    "scope": "javascript,typescript,javascriptreact",
+    "prefix": "test",
+    "body": ["test(‘$1’, () => {$2});"]
+  },
+  "it snippet": {
+    "scope": "javascript,typescript,javascriptreact",
+    "prefix": "it",
+    "body": ["it(‘$1’, () => {$2});"]
+  },
+  "describe snippet": {
+    "scope": "javascript,typescript,javascriptreact",
+    "prefix": "describe",
+    "body": ["describe(‘$1’, () => {$2});"]
+  },
+  "React SFC snippet": {
+    "scope": "javascript, typescript,javascriptreact",
+    "prefix": "sfc",
+    "body": ["const $1: React.SFC = () => {$2}"]
+  }
+}
